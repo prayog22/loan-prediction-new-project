@@ -19,5 +19,8 @@ pip install Flask
 
 we create  Flask application (application.py) that serves the home.html file and processes the form submission:
 
-Create a directory for your project and place the home.html file and application.py file in it.
+Create a templates directory for your project and place the index.html and home.html file in it. 
+also create the application.py file in project folder with code init.
 Install Flask if you haven't already: pip install Flask.
+
+run command - python application.py
