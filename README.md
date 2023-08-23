@@ -8,3 +8,10 @@ python3 -m venv MLPRO
 source MLPRO/bin/activate                 (activate env)
 mkdir mlproject                           (create one project directory)
 cd mlproject                              (enter in project directory)
+chmod 777 loan-prediction
+cd loan-prediction
+git clone https://github.com/vipulwarthe/loan-prediction.git
+pip install ipykernel -U --force-reinstall
+create setup.py and requirements.txt file in loan-prediciton folder or repo and put code and packges.
+pip install -r requirements.txt
+pip install imbalanced-learn
