@@ -15,3 +15,9 @@ pip install ipykernel -U --force-reinstall
 create setup.py and requirements.txt file in loan-prediciton folder or repo and put code and packges.
 pip install -r requirements.txt
 pip install imbalanced-learn
+pip install Flask
+
+we create  Flask application (application.py) that serves the home.html file and processes the form submission:
+
+Create a directory for your project and place the home.html file and application.py file in it.
+Install Flask if you haven't already: pip install Flask.
